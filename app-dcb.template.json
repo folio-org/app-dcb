@@ -1,0 +1,23 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-complete",
+      "version": "0.0.x"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-dcb",
+      "version": "1.1.1"
+    },
+    {
+      "name": "mod-circulation-item",
+      "version": "1.0.0"
+    }
+  ],
+  "uiModules": []
+}
