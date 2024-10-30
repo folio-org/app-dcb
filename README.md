@@ -7,6 +7,7 @@ Application descriptor repository for app-dcb.
 | Module name            |
 |:-----------------------|
 | `mod-dcb`              |
+| `edge-dcb`             |
 | `mod-circulation-item` |
 
 ## UI Modules
