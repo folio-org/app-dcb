@@ -6,12 +6,16 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^0.0.16"
+      "version": "^1.0.0-SNAPSHOT"
     }
   ],
   "modules": [
     {
       "name": "mod-dcb",
+      "version": "latest"
+    },
+    {
+      "name": "edge-dcb",
       "version": "latest"
     },
     {
