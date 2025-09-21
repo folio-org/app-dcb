@@ -1,6 +1,6 @@
 {
   "name": "app-dcb",
-  "version": "1.3.0-SNAPSHOT.100000000000001",
+  "version": "1.3.0-SNAPSHOT.100100000000001",
   "description": "Application for DCB related transactions in folio",
   "platform": "complete",
   "dependencies": [
@@ -12,15 +12,15 @@
   "modules": [
     {
       "name": "mod-dcb",
-      "version": "2.0.0-SNAPSHOT.138"
+      "version": "2.0.0-SNAPSHOT.147"
     },
     {
       "name": "edge-dcb",
-      "version": "1.4.0-SNAPSHOT.42"
+      "version": "1.4.0-SNAPSHOT.43"
     },
     {
       "name": "mod-circulation-item",
-      "version": "1.3.0-SNAPSHOT.45"
+      "version": "1.3.0-SNAPSHOT.49"
     }
   ],
   "uiModules": []
