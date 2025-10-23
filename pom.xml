@@ -6,7 +6,7 @@
   <artifactId>app-dcb</artifactId>
   <groupId>org.folio</groupId>
   <description>Application for DCB related transactions in folio</description>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.2.0</version>
 
   <properties>
     <project.name>app-dcb</project.name>
