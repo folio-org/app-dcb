@@ -6,24 +6,24 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^2.1.0",
+      "version": "^VERSION",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-dcb",
-      "version": "latest",
+      "version": "^VERSION",
       "preRelease": "false"
     },
     {
       "name": "edge-dcb",
-      "version": "latest",
+      "version": "^VERSION",
       "preRelease": "false"
     },
     {
       "name": "mod-circulation-item",
-      "version": "latest",
+      "version": "^VERSION",
       "preRelease": "false"
     }
   ],
