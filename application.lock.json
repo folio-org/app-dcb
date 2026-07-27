@@ -1,16 +1,16 @@
 {
-  "id" : "app-dcb-2.1.0-SNAPSHOT.100200000010921",
+  "id" : "app-dcb-2.1.0-SNAPSHOT.100200000011015",
   "name" : "app-dcb",
-  "version" : "2.1.0-SNAPSHOT.100200000010921",
+  "version" : "2.1.0-SNAPSHOT.100200000011015",
   "description" : "Application for DCB related transactions in folio",
   "modules" : [ {
+    "id" : "edge-dcb-2.1.0-SNAPSHOT.2068",
+    "name" : "edge-dcb",
+    "version" : "2.1.0-SNAPSHOT.2068"
+  }, {
     "id" : "mod-dcb-2.1.0-SNAPSHOT.2371",
     "name" : "mod-dcb",
     "version" : "2.1.0-SNAPSHOT.2371"
-  }, {
-    "id" : "edge-dcb-2.1.0-SNAPSHOT.2063",
-    "name" : "edge-dcb",
-    "version" : "2.1.0-SNAPSHOT.2063"
   }, {
     "id" : "mod-circulation-item-2.1.0-SNAPSHOT.2067",
     "name" : "mod-circulation-item",
@@ -352,7 +352,7 @@
       }
     }
   }, {
-    "id" : "edge-dcb-2.1.0-SNAPSHOT.2063",
+    "id" : "edge-dcb-2.1.0-SNAPSHOT.2068",
     "name" : "Edge DCB API",
     "requires" : [ {
       "id" : "login",
@@ -367,7 +367,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-dcb:2.1.0-SNAPSHOT.2063",
+      "dockerImage" : "folioci/edge-dcb:2.1.0-SNAPSHOT.2068",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
