@@ -4,16 +4,16 @@
   "version" : "2.0.3",
   "description" : "Application for DCB related transactions in folio",
   "modules" : [ {
+    "id" : "edge-dcb-2.0.2",
+    "name" : "edge-dcb",
+    "version" : "2.0.2"
+  }, {
     "id" : "mod-dcb-2.0.2",
     "name" : "mod-dcb",
     "version" : "2.0.2"
   }, {
     "id" : "mod-circulation-item-2.0.1",
     "name" : "mod-circulation-item",
-    "version" : "2.0.1"
-  }, {
-    "id" : "edge-dcb-2.0.1",
-    "name" : "edge-dcb",
     "version" : "2.0.1"
   } ],
   "uiModules" : [ ],
@@ -352,7 +352,7 @@
       }
     }
   }, {
-    "id" : "edge-dcb-2.0.1",
+    "id" : "edge-dcb-2.0.2",
     "name" : "Edge DCB API",
     "requires" : [ {
       "id" : "login",
@@ -367,7 +367,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-dcb:2.0.1",
+      "dockerImage" : "folioorg/edge-dcb:2.0.2",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
